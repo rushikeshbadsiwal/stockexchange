@@ -1,0 +1,19 @@
+.idea/*
+!.idea/
+target/*
+*.iml
+*.iws
+*.ipr
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+*.log
+*.log.*
+*.csv
+
+node_modules
+**/public/components
