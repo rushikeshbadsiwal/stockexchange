@@ -1,14 +1,5 @@
 package com.testproject.api;
 
-public class LoginRequestHandler implements EventHandler {
+public class LoginRequestHandler  {
 
-    @Override
-    public void process() {
-
-    }
-
-    @Override
-    public void addLog() {
-
-    }
 }

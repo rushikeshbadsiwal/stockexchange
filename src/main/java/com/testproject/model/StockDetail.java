@@ -1,7 +1,7 @@
 package com.testproject.model;
 
-public class StockDetails {
-
+public class StockDetail {
     String Symbol;
     Long count;
+    long price;
 }

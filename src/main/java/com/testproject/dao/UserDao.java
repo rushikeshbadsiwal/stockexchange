@@ -6,11 +6,11 @@ import java.util.UUID;
 
 public class UserDao {
 
-    User getUser() {
-        return new User(new UUID(1, 5));
+    User getUser(UUID userId) {
+        return new User(userId);
     }
 
-    void insertUser() {
-
+    void insertUser(User user) {
+        //insert into db
     }
 }

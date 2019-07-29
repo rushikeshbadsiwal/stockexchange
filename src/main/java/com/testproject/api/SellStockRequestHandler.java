@@ -1,10 +1,9 @@
 package com.testproject.api;
 
-public class SellStockRequestHandler implements StockExchangeEventHandler {
-    @Override
-    public void process() {
+import com.testproject.model.StockSellRequest;
+import com.testproject.model.StockSellResponse;
 
-    }
+public class SellStockRequestHandler implements StockExchangeEventHandler<StockSellRequest, StockSellResponse> {
 
     @Override
     public void createRecord() {
@@ -17,7 +16,7 @@ public class SellStockRequestHandler implements StockExchangeEventHandler {
     }
 
     @Override
-    public void addLog() {
-
+    public StockSellResponse process(StockSellRequest request) {
+        return null;
     }
 }

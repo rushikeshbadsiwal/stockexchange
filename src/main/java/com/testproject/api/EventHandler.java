@@ -1,8 +1,8 @@
 package com.testproject.api;
 
-public interface EventHandler {
+import com.testproject.model.Request;
+import com.testproject.model.Response;
 
-    void process();
-
-    void addLog();
+public interface EventHandler<REQ extends Request, RESP extends Response> {
+    RESP process(REQ request);
 }
