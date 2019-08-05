@@ -2,15 +2,28 @@ package com.testproject.dao;
 
 import com.testproject.model.User;
 
+import java.util.List;
 import java.util.UUID;
 
 public class UserDao {
 
-    User getUser(UUID userId) {
-        return new User(userId);
+    public List<User> getAllUsers() {
+        return null;
     }
 
-    void insertUser(User user) {
-        //insert into db
+    public String addUser(User user) {
+        return null;
+    }
+
+    public String deleteUser(String userUUID) {
+        return null;
+    }
+
+    public User getUser(UUID userUUID) {
+        return null;
+    }
+
+    public String updateUser(User user) {
+        return null;
     }
 }
