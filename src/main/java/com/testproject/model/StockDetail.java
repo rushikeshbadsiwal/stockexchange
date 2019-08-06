@@ -20,6 +20,10 @@ public class StockDetail {
         return symbol;
     }
 
+    public int getHashCode(){
+        return symbol.hashCode();
+    }
+
     public void setSymbol(String symbol) {
         this.symbol = symbol;
     }
